@@ -5,6 +5,5 @@ def snail(matrix)
   part4 = matrix[1][0, 2]
 
   whole = part1 << part2 << part3 << part4
-  
   whole.flatten
 end
