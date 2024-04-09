@@ -4,6 +4,5 @@
 
 #    Find the sum of the digits in the number 100!
 def sum_in_number(number)
-  arr = [*1..number]
-  arr.inject('*').to_s.chars.map { |num| num.to_i }.sum
+  [*1..number].inject('*').to_s.chars.map { |num| num.to_i }.sum
 end
