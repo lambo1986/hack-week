@@ -6,3 +6,7 @@
 def sum_in_number(number)
   [*1..number].inject('*').to_s.chars.map { |num| num.to_i }.sum
 end
+
+def big_number(num)
+  [*1..number].inject('*')
+end
